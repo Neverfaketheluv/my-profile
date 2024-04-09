@@ -198,6 +198,7 @@ header #meun-bar{
 }
 @media(max-width:480px){
     header #meun-bar{
+        width: 100%;
         display: initial;
         font-size: 50px;
     }
