@@ -23,7 +23,7 @@ header{
 header a {
     color:white;
     font-size: 1rem;
-    margin: 0 .8rem;
+    margin: 5rem;
     text-decoration: none;
 }
 header a:hover {
@@ -36,17 +36,18 @@ header #meun-bar{
     cursor: pointer;
     border-radius: .5rem;
     padding: .2rem 1rem;
-    /* display: none; */
 }
 .pro{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 150px;
     font-size: 40px;
 }
 .about{
+    text-align: center;
+    justify-content: center;
     margin: 1rem 20rem;
-    padding: 20px 50px;
+    padding: 50px 20px;
     background: rgb(108, 106, 106);
     border: none;
     display: flex;
@@ -61,39 +62,44 @@ header #meun-bar{
 .wid{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5px;
     font-size: 40px;
 }
 .portfo{
-    padding: 20px 50px;
+    padding: 50px 20px;
     margin: 1rem 20rem;
     display: grid;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
     border: none;
     background: rgb(108, 106, 106);
     color: white;
-    gap: 7rem;
+    gap: 0rem;
 }
 .develop span{
+    align-items: center;
+    justify-content: center;
     color: wheat;
-    margin-left: 20rem;
     padding: 30px 0px;
     font-size: 35px;
 }
 .develop .para1{
     font-size: 30px;
-    margin-left: 17rem;
+    align-items: center;
+    justify-content: center;
 }
 .inte{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5px;
     font-size: 40px;
 }
 .hobbies{
-    display: flex;
-    gap: 1rem;
-    margin: 2rem 20rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+   align-items: center;
+   justify-content: center;
 }
 .hob{
     border: none;
@@ -114,30 +120,37 @@ header #meun-bar{
 .edu{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5px;
     font-size: 40px;
 }
 .cert{
+    text-align: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
     margin: 2rem 20rem;
-    gap: 1rem;
+    gap: 5px;
 }
 .result{
     background: rgb(108, 106, 106);
     color: white;
     padding: 50px 50px;
+} 
+.result h2{
+    color: wheat;
 }
 .project{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5px;
     font-size: 40px;
 }
 .proj{
+    align-items: center;
+    justify-content: center;
     display: flex;
-    margin: 2rem 20rem;
-    gap: 5rem;
+    margin: 1rem 0rem;
+    gap: 5px;
 }
 .git{
     background: rgb(108, 106, 106);
@@ -145,26 +158,31 @@ header #meun-bar{
     padding: 50px 50px;
 }
 .git span{
+    align-content: center;
+    justify-content: center;
     color: wheat;
-    margin-left: 5rem;
-    padding: 30px 0px;
+    margin-left: 0rem;
+    padding: 30px 30px;
     font-size: 50px;
 }
 .git a{
-    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 .cont{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
-    font-size: 40px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 .reach{
-    margin:2rem 20rem;
-    width: fit-content;
-    height: fit-content;
+    padding: 0px 0px;
+    margin:1rem 20rem;
+    width: 50%;
+    height: 100%;
     border: none;
     background: rgb(108, 106, 106);
 }
@@ -177,12 +195,14 @@ header #meun-bar{
     padding-top:50px ;
 }
 .reach a{
-    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
     color: wheat;
-    margin: 30px 20px;
+    margin: 20px 15px;
     text-decoration: none;
     font-size: 30px;
-    padding-bottom:50px ;
+    padding-bottom:30px ;
 }
 .footer p{
     text-align: center;
@@ -199,12 +219,13 @@ header #meun-bar{
 @media(max-width:480px){
     header #meun-bar{
         width: 100%;
-        display: initial;
-        font-size: 50px;
+        height: 20%;
+        display: flex;
+        font-size: 30px;
     }
 
     header .Nav-Link{
-        position: absolute;
+        position:absolute;
         top: 100%;
         left:0;
         right:0;
@@ -221,7 +242,7 @@ header #meun-bar{
     header .Nav-Link a {
         display: grid;
         padding: 1rem;
-        margin: 1rem;
+        margin: 5px;
         border-radius: .5rem;
         background: rgb(173, 168, 168);
         color: #fff;
@@ -243,10 +264,9 @@ header #meun-bar{
         color:white;
     }
     .about img{
-        margin-left: 100px;
         border-radius: 50%;
-        width: 10rem;
-        height: 10rem;
+        width: 100px;
+        height: 100px;
     }
     .about h2{
         font-size: 15px;
@@ -274,42 +294,11 @@ header #meun-bar{
         gap: 1rem;
     }
     .develop span{
-        margin-left: 10rem;
         padding: 20px 0px;
         font-size: 25px;
     }
     .develop .para1{
         font-size: 20px;
-        margin-left: 7rem;
-    }
-    .inte{
-        text-align: center;
-        justify-content: center;
-        margin-top: 2rem;
-        font-size: 30px;
-    }
-    .hobbies{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 1rem;
-        margin: 2rem 0rem;
-    }
-    .hob{
-        border: none;
-        width: 100%;
-        height: 50px;
-        background: rgb(108, 106, 106);
-        padding: 30px 0px;
-    }
-    .hob span{
-        color: wheat;
-        margin-left: 3rem;
-        font-size: 25px;
-    }
-    .hob p{
-        color: white;
-        font-size: 20px;
-        margin-left: 2rem;
     }
     .edu{
         text-align: center;
@@ -319,7 +308,7 @@ header #meun-bar{
     }
     .cert{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         margin: 2rem 0rem;
         gap: 5px;
     }
@@ -334,35 +323,8 @@ header #meun-bar{
     }.result h2{
         font-size: 15px;
     }
-    .project{
-        text-align: center;
-        justify-content: center;
-        margin-top: 2rem;
-        font-size: 30px;
-    }
-    .proj{
-        width: 100%;
-        display: flex;
-        margin: 2rem 0rem;
-        gap: 1rem;
-    }
-    .git{
-        width: 100%;
-        background: rgb(108, 106, 106);
-        color: white;
-        padding: 20px 0px;
-    }
-    .git span{
-        color: wheat;
-        margin-left: 5rem;
-        padding: 30px 0px;
-        font-size: 50px;
-    }
     .git a{
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        margin-left: 50px;
+        font-size: 20px;
     }
     .cont{
         text-align: center;
